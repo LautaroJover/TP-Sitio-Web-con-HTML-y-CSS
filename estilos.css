@@ -1,0 +1,51 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; /* Tamaño de texto base */
+}
+
+body {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #d4d4d4;
+}
+
+/* === Configuración de Títulos === */
+h1 {
+    font-size: 2.5rem;
+    color: #569cd6;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #569cd6;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #9cdcfe;
+}
+
+/* === Configuración de Párrafos y Listas === */
+p, ul, ol, th, td {
+    color: #d4d4d4;
+    font-size: 1rem;
+}
+
+/* === Configuración de Enlaces a Archivos HTML === */
+a {
+    font-size: 1.1rem;
+    color: #9cdcfe;
+    text-decoration: none; /* Eliminar subrayado por defecto */
+}
+
+a:hover {
+    color: #ce9178;      /* Color naranja suave al pasar el mouse (hover) */
+    text-decoration: underline; /* Añadir subrayado al pasar el mouse */
+}
+
+/* Aplicamos estilos diferentes */
+pre code {
+    background-color: #2d2d2d;
+    color: #ce9178;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
