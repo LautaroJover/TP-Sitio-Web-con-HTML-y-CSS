@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Cursado Academico- 2do Año</title>
+    <!-- Vinculo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Mi Horario de Estudio</h1>
+    </header>
+
+    <nav>
+        <!-- Volver Index.html -->
+        <a href="index.html">← Volver al Inicio</a>
+    </nav>
+
+    <main>
+        <h2>Tecnicatura Universitaria en Programación - 2026</h2>
+        
+        <!-- Tabla con bordes básicos (Yo queria usar CSS) -->
+        <table border="1">
+            <thead>
+                <!-- Uso de COLSPAN: Una celda ocupa 2 columnas -->
+                <tr>
+                    <th colspan="2">1er Cuatrimestre</th>
+                    <th colspan="2">Aula 3</th>
+                    <th colspan="2">Horario de 2do año - Com B</th>
+                </tr>
+                <tr>
+                    <th>Horarios (h)</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>16 - 17</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>17 - 18</td>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>18 - 19</td>
+                    <td></td>
+                    <!-- Uso de ROWSPAN: Metodología ocupa 2 filas -->
+                    <td rowspan="2"><strong>Metodología de Sist. I</strong><br>Aula 8<br>Lic. Bazán</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19 - 20</td>
+                    <!-- Uso de ROWSPAN en multiples materias -->
+                    <td rowspan="2"><strong>Programación III</strong><br>Aula Zoom<br>Ing. De La Puente (19h)</td>
+                    <td rowspan="2"><strong>Inglés II</strong><br>Aula 3<br>Tr. Portugal (19,30h)</td>
+                    <td rowspan="2"><strong>Base de Datos II</strong><br>Aula Zoom<br>Ing. Carrizo (18h)</td>
+                    <td rowspan="2"><strong>Programación III</strong><br>Aula Zoom<br>Ing. De La Puente (19h)</td>
+                </tr>
+                <tr>
+                    <td>20 - 21</td>
+                    <!-- La clase de Metodología ya terminó, ahora empieza BD II -->
+                    <td rowspan="2"><strong>Base de Datos II</strong><br>Aula 8<br>Ing. Carrizo</td>
+                </tr>
+                <tr>
+                    <td>21 - 22</td>
+                    <!-- Lunes, Miércoles, Jueves y Viernes quedan vacíos en esta fila -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Ciclo lectivo en curso.</p>
+        <br>
+        <p>Este sitio web fue creado como parte del Trabajo Práctico N°1 de la asignatura Programación III.</p>
+    </footer>
+
+</body>
+</html>
